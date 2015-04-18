@@ -1,0 +1,44 @@
+$script: "grafolita-script",sans-serif;
+$serif: "ff-tisa-web-pro",serif;
+
+@mixin script {
+  font-family: $script;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin scriptMed {
+  font-family: $script;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@mixin scriptBold {
+  font-family: $script;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin serif {
+  font-family: $serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin serifItal {
+  font-family: $serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@mixin serifBold {
+  font-family: $serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin serifBoldItal {
+  font-family: $serif;
+  font-style: italic;
+  font-weight: 700;
+}
